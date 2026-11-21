@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Trader — Grupo VIP Gratuito</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#000;color:#fff;min-height:100vh}
+.badge-live{display:inline-flex;align-items:center;gap:8px;background:rgba(0,100,255,0.15);border:1px solid rgba(0,100,255,0.4);border-radius:100px;padding:6px 16px;font-size:13px;font-weight:600;color:#4d9fff;margin-bottom:24px}
+.dot-live{width:8px;height:8px;background:#4d9fff;border-radius:50%;animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+section.hero{display:flex;flex-direction:column;align-items:center;text-align:center;padding:60px 24px 40px}
+.foto-wrapper{width:120px;height:120px;border-radius:50%;border:3px solid #1a6fff;overflow:hidden;margin-bottom:20px;background:#111}
+.foto-wrapper img{width:100%;height:100%;object-fit:cover}
+.nome-tag{font-size:13px;font-weight:600;color:#4d9fff;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px}
+h1{font-size:clamp(28px,6vw,48px);font-weight:900;line-height:1.1;margin-bottom:16px}
+h1 span{color:#1a6fff}
+.sub{font-size:16px;color:#aaa;max-width:480px;margin-bottom:32px;line-height:1.6}
+.stats{display:flex;gap:32px;margin-bottom:40px;flex-wrap:wrap;justify-content:center}
+.stat{display:flex;flex-direction:column;align-items:center}
+.stat-num{font-size:28px;font-weight:900;color:#fff}
+.stat-label{font-size:12px;color:#666;margin-top:2px}
+.cta-btn{display:inline-flex;align-items:center;gap:10px;background:#1a6fff;color:#fff;font-size:17px;font-weight:700;padding:18px 36px;border-radius:12px;text-decoration:none;transition:all 0.2s;border:none;cursor:pointer}
+.cta-btn:hover{background:#0050dd;transform:translateY(-2px)}
+.cta-sub{font-size:13px;color:#555;margin-top:12px}
+.divider{border:none;border-top:1px solid #111;margin:0}
+section.depoimentos{padding:40px 24px}
+.dep-title{text-align:center;font-size:20px;font-weight:800;margin-bottom:24px;color:#aaa}
+.dep-card{background:#0a0a0a;border:1px solid #1a1a1a;border-radius:16px;padding:20px;margin-bottom:16px;max-width:560px;margin-left:auto;margin-right:auto}
+.dep-header{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.dep-header img{width:40px;height:40px;border-radius:50%;background:#111}
+.dep-nome{font-size:14px;font-weight:700}
+.dep-valor{font-size:12px;color:#1a6fff;font-weight:600}
+.dep-texto{font-size:14px;color:#888;line-height:1.6;margin-bottom:12px}
+.dep-resultado{font-size:13px;color:#4d9fff;font-weight:600}
+section.cta-final{padding:40px 24px 60px;text-align:center}
+section.cta-final h2{font-size:28px;font-weight:900;margin-bottom:12px}
+section.cta-final p{color:#aaa;margin-bottom:28px;font-size:15px}
+.seguro{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:#444;margin-top:12px}
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="badge-live"><span class="dot-live"></span>Ao vivo todo dia</div>
+  <div class="foto-wrapper"><img src="https://gabriel-trader.com/profile.jpg" alt="Gabriel Trader"></div>
+  <p class="nome-tag">Gabriel Trader · Trader Profissional</p>
+  <h1>Opere comigo ao vivo e<br>lucre <span>R$50 a R$500 por dia</span></h1>
+  <p class="sub">Sem experiência. Sem precisar entender de gráfico. Eu mostro cada entrada em tempo real — você acompanha e aprende operando.</p>
+  <div class="stats">
+    <div class="stat"><span class="stat-num">1.612</span><span class="stat-label">alunos formados</span></div>
+    <div class="stat"><span class="stat-num">24h</span><span class="stat-label">grupo VIP</span></div>
+    <div class="stat"><span class="stat-num">100%</span><span class="stat-label">gratuito</span></div>
+  </div>
+  <a href="https://chat.whatsapp.com/IkjEptgrPz9ArAHpY1be3T?s=cl&p=i&iam=2" class="cta-btn" onclick="fbq('track', 'Lead')">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.564 4.14 1.546 5.877L.057 23.428a.5.5 0 0 0 .515.572l5.773-1.517A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.52-5.158-1.428l-.36-.216-3.733.981.998-3.648-.235-.374A9.953 9.953 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    Entrar no Grupo VIP Gratuito
+  </a>
+  <p class="cta-sub">Acesso imediato · Sem cartão · Sem taxa</p>
+</section>
+<hr class="divider">
+<section class="depoimentos">
+  <p class="dep-title">Resultados reais dos alunos</p>
+  <div class="dep-card">
+    <div class="dep-header"><div style="width:40px;height:40px;border-radius:50%;background:#1a1a1a"></div><div><p class="dep-nome">Rodrigo Cardoso</p><p class="dep-valor">R$61,00 em uma operação</p></div></div>
+    <p class="dep-texto">"Eu tava só de curioso na live, nem esperava resultado tão rápido. Fiz a entrada junto com o Gabriel e o dinheiro já tava na conta antes de terminar o café."</p>
+    <span class="dep-resultado">✅ Resultado ao vivo</span>
+  </div>
+  <div class="dep-card">
+    <div class="dep-header"><div style="width:40px;height:40px;border-radius:50%;background:#1a1a1a"></div><div><p class="dep-nome">Juliana Alves</p><p class="dep-valor">R$277,00 no corujão</p></div></div>
+    <p class="dep-texto">"Comecei sem saber nada de gráfico e no corujão de terça já fechei uma operação de R$277. O Gabriel explica com calma, dá pra entender cada passo antes de entrar."</p>
+    <span class="dep-resultado">✅ Resultado ao vivo</span>
+  </div>
+  <div class="dep-card">
+    <div class="dep-header"><div style="width:40px;height:40px;border-radius:50%;background:#1a1a1a"></div><div><p class="dep-nome">Marina Souza</p><p class="dep-valor">Membro do Grupo VIP</p></div></div>
+    <p class="dep-texto">"O que mais me marcou não foi só o resultado, foi a paciência de responder toda dúvida no grupo. Fico feliz de ter encontrado esse trabalho."</p>
+    <span class="dep-resultado">✅ Grupo VIP Gabriel Trader</span>
+  </div>
+</section>
+<hr class="divider">
+<section class="cta-final">
+  <h2>Vem operar ao vivo comigo</h2>
+  <p>Todo dia ao vivo. Cada entrada explicada. Do zero ao resultado.</p>
+  <a href="https://chat.whatsapp.com/IkjEptgrPz9ArAHpY1be3T?s=cl&p=i&iam=2" class="cta-btn" onclick="fbq('track', 'Lead')">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.564 4.14 1.546 5.877L.057 23.428a.5.5 0 0 0 .515.572l5.773-1.517A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.52-5.158-1.428l-.36-.216-3.733.981.998-3.648-.235-.374A9.953 9.953 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    Entrar no Grupo VIP Gratuito
+  </a>
+  <p class="cta-sub">100% gratuito · Sem spam · Saia quando quiser</p>
+</section>
+</body>
+</html>
